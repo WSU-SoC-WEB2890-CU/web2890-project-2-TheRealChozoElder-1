@@ -1,0 +1,66 @@
+/* 
+Nathan Beach 2500 Final
+Author: Nathan Beach
+Date 9 Dec 2020
+filename: stylesheet.css
+ */
+
+body {
+    margin: 0;
+    font  : normal 16px/18px 'Helvetica', Arial, sans-serif;
+}
+
+container {
+    color: white;
+}
+
+#nav {
+    background-color: #338ff6;
+    text-align      : left;
+    padding-bottom  : 5px;
+    padding-top     : 5px;
+    color           : white;
+}
+
+#nav a:link {
+    color           : white;
+    background-color: #338ff6;
+    text-decoration : none;
+    font-weight     : 900;
+    padding         : 0px 5px 0px 5px;
+    line-height     : 50px;
+}
+
+#nav a:hover {
+    color           : white;
+    background-color: #338ff6;
+}
+
+#nav a:visited {
+    color: white;
+}
+
+#footer {
+    background-color: black;
+    text-align      : left;
+    color           : grey;
+    padding-bottom  : 5px;
+    padding-top     : 5px;
+}
+
+#footer a:link {
+    color: grey;
+}
+
+#footer a:hover {
+    color      : white;
+    font-weight: 900;
+}
+
+#bhphead {
+    text-align: center;
+}
+
+#stories {
+    text-align: center;
+}
